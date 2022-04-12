@@ -1,0 +1,10 @@
+{% extends 'main/base.html'%}
+<h1>Search Results</h1>
+
+<ul>
+  {% for el in object_list %}
+    <li>
+      {{ el.title }}, {{ el.opisanie }}
+    </li>
+  {% endfor %}
+</ul>

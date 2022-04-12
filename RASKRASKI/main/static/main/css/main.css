@@ -1,0 +1,19 @@
+body {
+    background: #99e09c;
+
+}
+
+
+li, a {list-style: none}
+li, a {
+    color: #eb5959;
+    display: block;
+    transition: all .6s ease;
+
+}
+li:hover, a:hover{
+    color: #eb5959;
+    transform: scale(1.05);
+
+}
+
